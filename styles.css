@@ -14,7 +14,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 2.5rem 0;
   align-items: center;
 }
 header h1 {
@@ -30,4 +30,33 @@ header ul li a {
   text-transform: uppercase;
   font-weight: 600;
   color: black;
+}
+main {
+  background-color: coral;
+}
+.content-wrapper {
+  margin: auto;
+  text-align: center;
+  padding: 2.5rem 0;
+  color: white;
+}
+.logo {
+  font-family: Deco;
+  font-size: 1.5rem;
+}
+main h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+main .decription {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+main button {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border: none;
 }
