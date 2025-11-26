@@ -7,6 +7,10 @@
   font-family: "Deco";
   src: url("./fonts/LavishlyYours-Regular.ttf");
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
 .wrapper {
   width: 70%;
   margin: auto;
@@ -35,6 +39,7 @@ header ul li a {
   color: black;
 }
 main {
+  font-family: Roboto;
   display: flex;
   flex-direction: column;
 }
