@@ -67,6 +67,8 @@ section.banner h2 {
 section.banner .decription {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  max-width: 60%;
+  margin: auto;
 }
 section.banner button {
   text-transform: uppercase;
