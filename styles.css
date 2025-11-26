@@ -3,22 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Deco";
+  src: url("./fonts/LavishlyYours-Regular.ttf");
+}
 .wrapper {
   width: 70%;
   margin: auto;
 }
-.wrapper header {
+header {
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
   align-items: center;
 }
-.wrapper header ul {
+header h1 {
+  font-family: Deco;
+}
+header ul {
   list-style: none;
   display: flex;
   gap: 3rem;
 }
-.wrapper header ul li a {
+header ul li a {
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 600;
+  color: black;
 }
