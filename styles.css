@@ -10,11 +10,14 @@
 .wrapper {
   width: 70%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2.5rem 0;
+  padding: 2.5rem 0 0 0;
   align-items: center;
 }
 header h1 {
@@ -32,31 +35,70 @@ header ul li a {
   color: black;
 }
 main {
+  display: flex;
+  flex-direction: column;
+}
+section.banner {
   background-color: coral;
+  padding: 2rem 0;
 }
 .content-wrapper {
   margin: auto;
   text-align: center;
-  padding: 2.5rem 0;
   color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .logo {
   font-family: Deco;
   font-size: 1.5rem;
 }
-main h2 {
+section.banner h2 {
   font-size: 1.5rem;
   text-transform: uppercase;
+  padding-top: 5px;
 }
-main .decription {
+section.banner .decription {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-main button {
+section.banner button {
   text-transform: uppercase;
   font-weight: 600;
   color: black;
   background-color: white;
   padding: 1rem 1.5rem;
   border: none;
+}
+.header-section {
+  color: black;
+  text-transform: uppercase;
+}
+.separator-block {
+  width: 3rem;
+
+  height: 0.2rem;
+  margin: auto;
+  margin-top: 5px;
+}
+.images-section {
+  display: flex;
+  background-color: antiquewhite;
+}
+.images-section img {
+  flex: 1;
+  min-width: 0;
+  object-fit: cover;
+}
+.background-coral {
+  background-color: coral;
+}
+.background-black {
+  background-color: black;
+  margin-top: 0;
+}
+.background-white {
+  background-color: white;
+  margin: 0 auto;
 }
